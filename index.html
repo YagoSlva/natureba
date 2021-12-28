@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Natureba</title>
+    <link rel="shortcut icon" type="imagex/png" href="imagens/logo/icon.png">
+    <link rel="stylesheet" type="text/css" href="site.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <div class="logotext">
+                    <img id="logomarca" src="imagens/logo/logo.png">
+                    <p id="logotext">Natureba</p>
+                </div>
+            </a>
+        </div>
+        <form action="">
+            <div class="buscar">
+
+                <div>
+                    <input id="inptbuscar" class="input inpt-buscar" class="search" type="text" placeholder="O que procura?"
+                        name="procurar" onblur="validaBuscar()">
+                </div>
+                <div style="margin-left: 5px;">
+                    <button class="btn btn-buscar" type="submit" name="procurar">Buscar</button>
+                </div>
+
+            </div>
+        </form>
+    </header>
+    <section class="carrossel-ofertas">
+        <div>
+            <img class="img-carrossel fade" src="imagens/sementes-ok.png">
+            <img class="img-carrossel fade" src="imagens/temperos-ok.png">
+            <img class="img-carrossel fade" src="imagens/remedios-ok.png">
+            <div style="text-align: center;">
+                <span class="dot" onclick="atualSlides(1)"></span>
+                <span class="dot" onclick="atualSlides(2)"></span>
+                <span class="dot" onclick="atualSlides(3)"></span>
+            </div>
+        </div>
+        <button class="btn" id="retornar" onclick="trocarSlide(-1)">&lt;</button>
+        <button class="btn" id="avancar" onclick="trocarSlide(+1)">&gt;</button>
+    </section>
+    <nav>
+        <div class="mold-btn-nav">
+            <a href="temperos.html">
+                <img class="img-btn-nav" src="imagens/icons/azeite.png" alt="Temperos">
+                <p class="text-btn-nav">Temperos</p>
+            </a>
+        </div>
+        <div class="mold-btn-nav">
+            <a href="remedios.html">
+                <img class="img-btn-nav" src="imagens/icons/medico.png" alt="Remédios">
+                <p class="text-btn-nav">Remédios</p>
+            </a>
+        </div>
+        <div class="mold-btn-nav">
+            <a href="sementes.html">
+                <img class="img-btn-nav" src="imagens/icons/sementes.png" alt="Sementes">
+                <p class="text-btn-nav">Sementes</p>
+            </a>
+        </div>
+    </nav>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+<footer>
+    <section id="section-form-email">
+        <div class="bloco-text-oferta">
+            <img class="oferta-no-email" src="imagens/oferta-no-email.png" alt="Sementes">
+        </div>
+        <div>
+            <form action="" method="POST">
+                <div class="container-form">
+                    <div class="container-form-1">
+                        <input id="inpname" class="input inpname" type="text" name="Nome" placeholder="Nome*" value="" onblur="validaNome()">
+                        <input id="inptelefone" class="input inptelefone" type="text" name="Telefone" placeholder="Telefone">
+                    </div>
+                    <div class="container-form-2">
+                        <input id="inpemail" class="input inpemail" type="email" name="Email" placeholder="E-mail*" onblur="validaEmail()">
+                        <button id="cadastrar"class="btn btn-cadastrar" type="submit" name="procurar" onclick="validaForm()">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script type="text/javascript" src="js/script.js"></script>
+</footer>
+
+</html>

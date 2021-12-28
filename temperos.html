@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Natureba</title>
+    <link rel="shortcut icon" type="imagex/png" href="imagens/logo/icon.png">
+    <link rel="stylesheet" type="text/css" href="site.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <div class="logotext">
+                    <img id="logomarca" src="imagens/logo/logo.png">
+                    <p id="logotext">Natureba</p>
+                </div>
+            </a>
+        </div>
+        <form action="">
+        <div class="buscar">
+
+            <div>
+                <input id="inptbuscar" class="input inpt-buscar" class="search" type="text" placeholder="O que procura?"
+                        name="procurar" onblur="validaBuscar()">
+            </div>
+            <div style="margin-left: 5px;">
+                <button class="btn btn-buscar" type="submit" name="procurar">Buscar</button>
+            </div>
+
+        </div>
+        </form>
+    </header>
+    <div class="container-produtos">
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/temperos/caldo_de_carne.jpg">
+            <label class="desc-produto">Caldo de carnes 100g</label>
+            <label class="valor-pruduto">R$ 5,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/temperos/caldo_de_legumes.jpg">
+            <label class="desc-produto">Caldo de legumes</label>
+            <label class="valor-pruduto">R$ 5,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/temperos/gengibre_em_lascas.jpg">
+            <label class="desc-produto">Gengibre em lascas 100g</label>
+            <label class="valor-pruduto">R$ 5,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/temperos/hortela_em_po.jpg">
+            <label class="desc-produto">Hortelã em pó 100g</label>
+            <label class="valor-pruduto">R$ 5,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/temperos/manjerona_em_po.jpg">
+            <label class="desc-produto">Manjerona 100g</label>
+            <label class="valor-pruduto">R$ 5,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/temperos/mix_de_temperos.webp">
+            <label class="desc-produto">Mix de temperos 100g</label>
+            <label class="valor-pruduto">R$ 5,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/temperos/pimenta_siria.jpg">
+            <label class="desc-produto">Pimenta da Siria 100g</label>
+            <label class="valor-pruduto">R$ 5,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/temperos/sal_marinho.jpg">
+            <label class="desc-produto">Sal Marinho 100g</label>
+            <label class="valor-pruduto">R$ 5,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+
+
+    </div>
+</body>
+<footer>
+    <section id="section-form-email">
+        <div class="bloco-text-oferta">
+            <img class="oferta-no-email" src="imagens/oferta-no-email.png" alt="Sementes">
+        </div>
+        <div>
+            <form action="" method="POST">
+                <div class="container-form">
+                    <div class="container-form-1">
+                        <input class="input inp-name" type="text" name="Nome" placeholder="Nome*" required>
+                        <input class="input inp-telefone" type="text" name="Telefone" placeholder="Telefone">
+                    </div>
+                    <div class="container-form-2">
+                        <input class="input inp-email" type="email" name="Email" placeholder="E-mail*" required>
+                        <button class="btn btn-cadastrar" type="submit" name="procurar">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</footer>
+
+</html>

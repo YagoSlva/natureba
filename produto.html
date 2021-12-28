@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Natureba</title>
+    <link rel="shortcut icon" type="imagex/png" href="imagens/logo/icon.png">
+    <link rel="stylesheet" type="text/css" href="site.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <div class="logotext">
+                    <img id="logomarca" src="imagens/logo/logo.png">
+                    <p id="logotext">Natureba</p>
+                </div>
+            </a>
+        </div>
+        <div class="buscar">
+            <div>
+                <input id="inptbuscar" class="input inpt-buscar" class="search" type="text" placeholder="O que procura?"
+                        name="procurar" onblur="validaBuscar()">
+            </div>
+            <div style="margin-left: 5px;">
+                <button class="btn btn-buscar" type="submit" name="procurar">Buscar</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-produto">
+            <div class="container-img">
+                <img class="produto" src="imagens/floral-ansiolide.jpeg">
+            </div>
+            <form action="">
+                <div class="container-form-valor">
+                    <p>FLORAL ANSIOLIDE (ANSIEDADE) 30ML DR FLORAL THÉRAPI</p>
+                    <label>R$29,99</label>
+                    <br>
+                    <div>
+                        <label>QTD</label>
+                        <input class="input qtd" type="number" name="quantidade" required>
+                        <input class="btn btn-comprar" type="submit" name="comprar" value="Comprar">
+                    </div>
+                </div>
+        </div>
+        </form>
+        <div class="container-descricao">
+            <p>
+            <h3>Floral Ansiedade 30ml Dr Floral</h3>
+            <p>Os princípios ativos desta composição buscam fortalecer na alma as energias de tolerância, serenidade,
+                paciência e tranquilidade, reequilibrando desta maneira o bem-estar.</p>
+
+            <h3>Modo de uso:</h3>
+
+            <p>Via oral - 4 gotas, 3 vezes ao dia. O uso pode ser sublingual ou diluído em água, se preferir, para
+                atenuar o gosto. Se possível, tente mantê-lo na boca por alguns segundos antes de engolir.</p>
+
+            <p>Caso deseje combinar tratamentos, você pode tomar até 4 florais simultâneos, que devem ser consumidos
+                com intervalo de 5 minutos entre um e outro.</p>
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>

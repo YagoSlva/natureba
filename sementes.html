@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Natureba</title>
+    <link rel="shortcut icon" type="imagex/png" href="imagens/logo/icon.png">
+    <link rel="stylesheet" type="text/css" href="site.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <div class="logotext">
+                    <img id="logomarca" src="imagens/logo/logo.png">
+                    <p id="logotext">Natureba</p>
+                </div>
+            </a>
+        </div>
+        <form action="">
+        <div class="buscar">
+
+            <div>
+                <input id="inptbuscar" class="input inpt-buscar" class="search" type="text" placeholder="O que procura?"
+                        name="procurar" onblur="validaBuscar()">
+            </div>
+            <div style="margin-left: 5px;">
+                <button class="btn btn-buscar" type="submit" name="procurar">Buscar</button>
+            </div>
+
+        </div>
+        </form>
+    </header>
+    <div class="container-produtos">
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/sementes/semente-marrom.jpg">
+            <label class="desc-produto">Linhaça 200g</label>
+            <label class="valor-pruduto">R$ 23,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/sementes/cafe.jpg">
+            <label class="desc-produto">Cafe 500g</label>
+            <label class="valor-pruduto">R$ 15,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/sementes/abobora.png">
+            <label class="desc-produto">Abóbora 300g</label>
+            <label class="valor-pruduto">R$ 28,00</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/sementes/chia.jpg">
+            <label class="desc-produto">Chia 400g</label>
+            <label class="valor-pruduto">R$ 25,00</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/sementes/girassol.jpg">
+            <label class="desc-produto">Girassol 100g</label>
+            <label class="valor-pruduto">R$ 13,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/sementes/graviola.jpg">
+            <label class="desc-produto">Graviola 700g</label>
+            <label class="valor-pruduto">R$ 50,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/sementes/olhodeboi.jpg">
+            <label class="desc-produto">Olho de boi 1Kg</label>
+            <label class="valor-pruduto">R$ 199,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+        <div class="box-produto">
+            <img class="img-tmb-produto" src="imagens/sementes/soja.jpg">
+            <label class="desc-produto">Soja 100g</label>
+            <label class="valor-pruduto">R$ 15,99</label>
+            <button class="btn btn-comprar" type="submit" value="x"><a href="produto.html">Comprar</a></button>
+        </div>
+
+
+    </div>
+</body>
+<footer>
+    <section id="section-form-email">
+        <div class="bloco-text-oferta">
+            <img class="oferta-no-email" src="imagens/oferta-no-email.png" alt="Sementes">
+        </div>
+        <div>
+            <form action="" method="POST">
+                <div class="container-form">
+                    <div class="container-form-1">
+                        <input class="input inp-name" type="text" name="Nome" placeholder="Nome*" required>
+                        <input class="input inp-telefone" type="text" name="Telefone" placeholder="Telefone">
+                    </div>
+                    <div class="container-form-2">
+                        <input class="input inp-email" type="email" name="Email" placeholder="E-mail*" required>
+                        <button class="btn btn-cadastrar" type="submit" name="procurar">Cadastrar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</footer>
+
+</html>
