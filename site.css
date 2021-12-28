@@ -88,8 +88,8 @@ a{
     padding: 30px;
 }
 .carrossel-ofertas{
-    display: inline-flex;
-
+    display: flex;
+    justify-content: center;
 }
 .dot:hover, .active{
     background-color:#F2F2F2 !important;
